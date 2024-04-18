@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply some basic styling to the body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* Style the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 15px;
+}
+
+/* Style the brief section */
+.brief {
+  text-align: left;
+}
+
+#name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#dp {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Style the social links */
+.social {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #000;
+}
+
+/* .social a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+} */
+
+/* Style the about section */
+.about {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.about p {
+  margin-bottom: 15px;
+}
+
+/* Style the thoughts section */
+.thoughts {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.thoughts h4 {
+  margin-bottom: 10px;
+}
+
+.thoughts p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.thoughts ul {
+  /* list-style-type: disc; */
+  padding-left: 20px; /* Added padding for indentation */
+}
+
+.thoughts ul li {
+  /* margin-bottom: 5px; */
+}
+
+/* Style the footer */
+.footer {
+  text-align: left;
+}
